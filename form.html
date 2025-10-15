@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./response.html" name="Biodata" target="_blank" method="get" >
+<fieldset>
+    <legend>Biodata</legend>
+    <label for ="name">Name:</label>
+    <input type="text" id ="name" name ="name"
+    placeholder="Enter your name " required>
+    <br><br>
+    <lebel for ="pass">password:</lebel>
+    <input type="password" id ="pass" name ="pass">
+    <br><br>
+    <label for ="dob" >DOB:</label>
+    <input type="date" id ="dob" name="dob" required>
+    <br><br>
+    <label for ="email">Email:</label>
+    <input type="email" id ="email" name="email" required>
+    <br><br>
+    <lebel for ="tel">Phone:</lebel>
+    <input type="tel" id ="tel" name="tel"required>
+    <br><br>
+    <label for ="add">Address:</label>
+    <input type="text" id ="add" name="add" rows="5" cols="40" required>
+    <br><br>
+   <label for ="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br><br>
+    <label for="color">Favorite Color:</label>
+    <input type="color" id="color" name="color" value="#000000">
+    <br><br>    
+    <label for="check">Vehicle </label>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> Bike</label>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2">Car</label>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Private Jet</label>
+    <br><br>
+    <label for="Language"> Select programming Language:</label>
+    <select id="Language" name=" Programming Language" required>
+    <br><br>
+        <option value="Select">Select</option>
+        <optgroup label="Frontend Language">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+        </optgroup>
+        <optgroup label="Backend Language">
+        <option value="C">C</option>
+        <option value="C++">C++</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="PHP">PHP</option>
+        </optgroup>
+        </select>
+    <br><br>
+    <label for="url">Website:</label>
+    <input type="url" id="url" name="url"   
+    placeholder="https://example.com" required>
+    <br><br>
+
+    <label for="file">Upload your file:</label>
+    <input type="file" id="file" name="file"required>
+    <br><br>
+    <label for="attempt">Attempt:</label>
+    <input type="number" id="attempt" name="attempt"
+     min="1" max="10" required>
+    <br><br>
+    <label for="app">Appointment:</label>
+    <input type="time" id="app" name="app" required>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    <br><br>
+</fieldset>
+    </form>
+</body>
+</html>
